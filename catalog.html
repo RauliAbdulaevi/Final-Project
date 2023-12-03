@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/49117ff12f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="icon" type="image/x-icon" href="images/guitar_logo.svg">
+</head>
+
+<body>
+    <!-- flex_container -->
+    <div class="flex_container">
+        <!-- header  -->
+        <header>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-regular fa-circle-xmark"></i>
+            <nav class="header_navigation">
+                <ul class="header_ul">
+                    <li>
+                        <a class="header_list non_active medium_font_size" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="header_list active medium_font_size" href="catalog.html">Catalog</a>
+                    </li>
+                    <li>
+                        <a class="header_list non_active medium_font_size" href="contact.htm">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="index.html"><img class="header_guitar" src="images/guitar_logo.svg" alt="logo"></a>
+
+            <div class="header_buttons">
+                <button class="header_search_button">
+                    <img class="search_icon" src="images/search_icon.svg" alt="icon">
+                </button>
+
+                <button class="header_user_button">
+                    <img class="user_icon" src="images/user_icon.svg" alt="icon">
+                </button>
+
+                <button class="header_cart_button">
+                    <img class="cart_icon" src="images/cart_icon.svg" alt="icon" >
+                </button>
+            </div>
+
+        </header>
+        <!-- catalog_section1 -->
+        <section class="catalog_section1"> 
+            <div class="guitar_types_div">
+                <button class="guitar_types non_active_guitars medium_font_size">Classical</button>
+                <button class="guitar_types non_active_guitars medium_font_size">Acoustic</button>
+                <button class="guitar_types active_guitars medium_font_size">Electric</button>
+                <button class="guitar_types non_active_guitars medium_font_size">Base</button>
+            </div>
+        </section>
+        <!-- catalog_section2 -->
+        <section class="catalog_section2">
+            <div class="catalog_section2_main_div">
+                <div class="catalog_section2_filter">
+                    <div class="catalog_section2_filter_left_side">
+                        <p class="catalog_section2_filter_left_side_txt medium_font_size">Filter</p>
+                        <img class="filter_icon" src="images/filter_icon.svg" alt="icon" >
+                    </div>
+                    <div class="catalog_section2_filter_right_side">
+                        <p class="catalog_section2_filter_right_side_txt medium_font_size">Sort by:</p>
+                        <select class="catalog_section2_select standart_font_size select_for_desktop" name="catalog_section2_select" id="Catalog_Section2_Select"><option class="catalog_section2_select_option" value="Best Selling" selected>Best selling</option>
+                        </select> 
+                        <select class="catalog_section2_select standart_font_size select_for_mobile" name="catalog_section2_select2" id="Catalog_Section2_Select2">
+                        </select> 
+                    </div>
+                </div>
+
+                <div class="catalog_section2_guitar_cards">
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar1.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar2.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar3.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar4.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar5.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar6.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar7.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar8.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar9.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar1.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar11.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar2.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar6.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar7.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar9.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                    <div class="common_card catalog_guitar_card">
+                                <div class="common_img_wraper">
+                                    <img src="images/guitar16.png" alt="img" class="guitar1">
+                                </div>
+                                <h3 class="common_img_description standart_font_size common_guitar_img_description">lorem ipsum</h3>
+                                <div class="common_card_characteristics catalog_card_characteristics">
+                                    <div class="rank_wraper catalog_rank_wraper">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <img src="images/ranking_stars.svg" alt="img">
+                                        <p class="common_card_reviews small_font_size"> 4 reviews</p>
+                                    </div>
+                                    <p class="common_card_price">$ 950</p>
+                                </div>
+            
+                    </div>
+                </div>
+
+                <div class="catalog_section2_pages">
+                    <button class="previous_page_button standart_font_size">
+                        <img class="catalog_left_arrow" src="images/catalog_left_arrow.svg" alt="img">
+                        <p class="previous_page_button_text">Previous</p>
+                    </button>
+                    <p class="catalog_activPage standart_font_size">Page 1 of 5</p>
+                    <button class="next_page_button standart_font_size">
+                        <p class="next_page_button_text">Next</p>
+                        <img class="catalog_right_arrow" src="images/catalog_right_arrow.svg" alt="img">
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- footer  -->
+        <footer>
+            <div class="footer_upper_side">
+                <div class="brands_wraper">
+                    <div class="brands_wraper_title_underline">
+                        <h3 class="brands_wraper_title medium_font_size ">Brands</h3>
+                        <div class="brands_wraper_underline"> </div>
+                    </div>
+            
+                    <ul class="brands_wraper_list">
+                        <li class="brands_wraper_li standart_font_size">Fender</li>
+                        <li class="brands_wraper_li standart_font_size">Gibson</li>
+                        <li class="brands_wraper_li standart_font_size">Jockson</li>
+                        <li class="brands_wraper_li standart_font_size">Ibanez</li>
+                    </ul>
+                </div>
+                <div class="information_wraper">
+                    <div class="information_wraper_title_underline">
+                        <h3 class="information_wraper_title medium_font_size ">Information</h3>
+                        <div class="information_wraper_underline"> </div>
+                    </div>
+            
+                    <ul class="information_wraper_list">
+                        <li class="information_wraper_li standart_font_size">Blog</li>
+                        <li class="information_wraper_li standart_font_size">Delivery</li>
+                        <li class="information_wraper_li standart_font_size">About us</li>
+                    </ul>
+                </div>
+                <div class="contact_wraper">
+                    <div class="contact_wraper_title_underline">
+                        <h3 class="contact_wraper_title medium_font_size ">Contact</h3>
+                        <div class="contact_wraper_underline"> </div>
+                    </div>
+            
+                    <ul class="contact_wraper_list">
+                        <li class="contact_wraper_li standart_font_size"><a href="https://www.google.com/maps/place/24+Rustaveli+St,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7114312,44.8940969,17z/data=!3m1!4b1!4m6!3m5!1s0x40441271788f43cb:0x2686a6e5366d82d2!8m2!3d41.7114312!4d44.8940969!16s%2Fg%2F11kpvck2nf?entry=ttu" target="_blank">Tbilisi, str, Rustaveli 24</a></li>
+                        <li class="contact_wraper_li standart_font_size"><a href="tel:+(32)2 56 78 98">+(32)2 56 78 98</a></li>
+                        <li class="footer_media">
+                            <a href="https://www.facebook.com/" target="_blank"><img class="footer_sociaal_images" src="images/facebook_icon.svg" alt="logo"></a>
+                            <a href="https://www.whatsapp.com/" target="_blank"><img class="footer_sociaal_images" src="images/whatsapp_icon.svg" alt="logo"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img class="footer_sociaal_images" src="images/instagram_icon.svg" alt="logo"></a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_down_side">
+                <img class="footer_down_side_logo" src="images/footer_down_side_logo.svg" alt="logo">
+                <p class="footer_down_side_txt standart_font_size">All right reserved.2025.</p>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

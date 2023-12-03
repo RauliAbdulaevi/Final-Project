@@ -1,0 +1,243 @@
+@media(max-width: 1270px) {
+
+    /* home_section3 */
+    .home_section3 {
+        padding-left: 32px;
+    }
+
+    /* .catalog_section2  */
+    .catalog_section2 {
+        padding-inline: 45px;
+    }
+
+}
+
+@media(max-width: 1100px) {
+
+    /* .catalog_section2  */
+    .catalog_section2_guitar_cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .catalog_guitar_card:is(:nth-last-child(1), :nth-last-child(2), :nth-last-child(3), :nth-last-child(4)) {
+        display: none;
+    }
+
+}
+
+@media(max-width: 1025px) {
+
+    /* header  */
+    .header_navigation {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .header_navigation {
+        display: block;
+        position: fixed;
+        top: 99px;
+        background-color: #05BCCA;
+        left: -100%;
+    }
+
+    .header_navigation.burger_bar_active {
+        left: 0;
+    }
+
+    .header_list {
+        color: #C46A2B;
+    }
+
+    .header_ul {
+        flex-direction: column;
+        row-gap: 8px;
+        padding: 16px 56px 16px 16px;
+    }
+    /* conctact_us_section */
+    .conctact_us_section{
+        padding: 106px 94px 105px 94px;
+    }
+}
+
+@media(max-width: 850px) {
+
+    /* .catalog_section2  */
+    .catalog_section2 {
+        padding: 48px 32px;
+    }
+
+    .catalog_section2_guitar_cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .catalog_guitar_card:is(:nth-last-child(5), :nth-last-child(6), :nth-last-child(7), :nth-last-child(8)) {
+        display: none;
+    }
+
+    /* home_section1 */
+    .home_section1 {
+        height: 400px;
+        padding: 32px 0 0 0;
+    }
+
+    /* home_section2  */
+    .home_section2 {
+        height: 596px;
+        padding: 48px 0;
+    }
+
+    .home_section2_card_wraper {
+        width: 680px;
+    }
+
+    /* footer  */
+    .footer_upper_side {
+        column-gap: 149px;
+    }
+}
+
+@media(max-width: 815px) {
+
+    /* conctact_us_section */
+    .conctact_us_section {
+        padding-inline: 40px;
+    }
+
+    .conctact_us_section_content {
+        width: 100%;
+    }
+
+    .conctact_us_section_content_bottom_side {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .conctact_us_section_map_social {
+        align-items: center;
+    }
+}
+
+@media(max-width: 760px) {
+
+    /* header  */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* home_section3 */
+    .home_section3 {
+        padding-top: 48px;
+    }
+
+    .footer_upper_side {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .brands_wraper,
+    .information_wraper,
+    .contact_wraper {
+        align-items: center;
+    }
+
+    .brands_wraper_list,
+    .information_wraper_list,
+    .contact_wraper_list {
+        align-items: center;
+    }
+    /* conctact_us_section */
+    .conctact_us_section{
+        padding: 48px 64px 48px 64px;
+    }
+}
+
+@media(max-width: 700px) {
+
+    /* home_section2  */
+    .home_section2 {
+        height: 404px;
+        padding: 32px 0;
+    }
+
+    .home_section2_card_wraper {
+        grid-template-rows: 160px 160px;
+        width: 500px;
+    }
+
+    /* home_section4 */
+    .home_from_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .home_email_input {
+        width: 201px;
+    }
+
+    /* conctact_us_section */
+    .conctact_us_section_content_title{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .conctact_us_section_info{
+        column-gap: 24px;
+        justify-content: center;
+        padding: 16px 92px;
+    }
+    .mail_phone {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .minimap_logo {
+        width: 24px;
+        height: 24px;
+    }
+
+    .contact_us_mail,
+    .contact_us_tell {
+        display: none;
+    }
+
+}
+
+@media(max-width: 610px) {
+
+    /* .catalog_section2  */
+    .catalog_section2 {
+        padding: 32px 16px;
+    }
+
+    .catalog_section2_select {
+        width: min-content;
+    }
+
+    .catalog_section2_select_option {
+        display: none;
+    }
+
+    .catalog_section2_filter_left_side_txt {
+        display: none;
+    }
+
+    .catalog_section2_guitar_cards {
+        grid-template-columns: 1fr;
+    }
+
+    .catalog_guitar_card:is(:nth-last-child(9), :nth-last-child(10), :nth-last-child(11), :nth-last-child(12)) {
+        display: none;
+    }
+
+    .previous_page_button_text,
+    .next_page_button_text {
+        display: none;
+    }
+}
